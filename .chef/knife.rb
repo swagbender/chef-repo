@@ -9,3 +9,4 @@ validation_client_name   "stanford_chef-validator"
 validation_key           "#{current_dir}/stanford_chef-validator.pem"
 chef_server_url          "https://api.opscode.com/organizations/stanford_chef"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+trusted_certs_dir	 #{current_dir}/trusted_certs
